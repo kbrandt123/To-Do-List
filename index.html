@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,500;1,500&family=Kdam+Thmor+Pro&family=Patrick+Hand&family=Permanent+Marker&family=Poppins:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <title>To-Do-List</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="top">
+        <h2>To-Do List</h2>
+
+        <form class="input-add" autocomplete="off">
+          <input
+            type="text"
+            id="input-task"
+            placeholder="Input Task..."
+            required
+          />
+          <button class="btn">Add</button>
+        </form>
+      </div>
+      <ul class="tasks"></ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
