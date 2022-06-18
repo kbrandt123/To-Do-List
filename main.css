@@ -86,7 +86,6 @@ h2 {
   float: right;
   width: 10%;
   height: 37px;
-  border-radius: 2px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -105,4 +104,17 @@ h2 {
 .input-add {
   padding: 0;
   margin: 0;
+}
+
+.check {
+  float: left;
+  position: relative;
+  height: 90%;
+  width: 40px;
+  cursor: pointer;
+  accent-color: green;
+}
+
+.line {
+  text-decoration: line-through;
 }
